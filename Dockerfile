@@ -15,7 +15,6 @@ RUN cd ${HOME} \
     && chown -R ${SWUSER} ${HOME}/node_modules
 
 COPY ./lib ${HOME}/lib
-COPY ./bin ${HOME}/bin
 
 RUN npm prune --production
 
