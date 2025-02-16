@@ -1,0 +1,84 @@
+/* START: LOOK AND FEEL - COLORS AND FONTS  */
+body, html {
+  /*background-color: #121212;*/
+  background-image: url("/images/hops-background.jpg");
+  background-size: cover;
+}
+
+.content-background {
+  background-color: rgba(33,37,41);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+a {
+  font-family: 'Vollkorn', Georgia, Times, serif;
+  color: dodgerblue;
+}
+
+p, div, footer {
+  font-family: 'Vollkorn', Georgia, Times, serif;
+  color: white;
+}
+
+span {
+  font-family: 'Vollkorn', Georgia, Times, serif;
+  color: darkgray;
+}
+
+.table-hover tr:hover {
+  background: darkgray;
+}
+
+.table-hover {
+  color: antiquewhite;
+}
+
+input[type='radio']:checked {
+  background-color: dodgerblue!important;
+}
+
+input[type='checkbox']:checked {
+  background-color: dodgerblue!important;
+}
+
+.card {
+  background-color: #121212;
+  border-color: darkgray;
+}
+
+.navbar {
+  background-color: #121212!important;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+input, textarea, select {
+  background-color: antiquewhite!important;
+}
+
+/* END: LOOK AND FEEL - COLORS AND FONTS  */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-brand-rwabbc-logo {
+  max-width: 50px;
+}
+
+.page-header-rwabbc-logo {
+  max-width: 100px;
+}
+
+.page-title-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
